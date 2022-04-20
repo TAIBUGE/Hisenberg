@@ -81,7 +81,7 @@ p {
 /* Style the navigation bar */
 .navbar {
     width: 100%;
-    background-color: #555;
+    background-color: #04AA6D;
     overflow: auto;
   }
   
@@ -194,7 +194,7 @@ input[type="reset"]:hover
 }
 /* Style the footer */
 footer {
-    background-color: #777;
+    background-color: #04AA6D;
     padding: 8px;
     text-align: center;
     color: white;
