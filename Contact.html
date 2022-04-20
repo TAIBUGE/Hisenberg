@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html 1ang="en">
+  <head>
+      <link rel="stylesheet" href="layout_stylesheet.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <div class="navbar">
+        <a href="./Index.html"><i class="fa fa-fw fa-home"></i> Home</a>
+        <a href="./About.html"><i class="fa fa-fw fa-search"></i> About Me</a>
+        <a  class="active2" href="./Contact.html"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+        <a href="#"><i class="fa fa-fw fa-user"></i> My CV</a>
+      </div>
+  </head>
+  <body>
+    <div class="flex-item-contact">
+        <h2><p style="color:#641d1d;">Get in Touch </p></h2>
+        <br>
+    <!-- <p>adding a contact form</p> -->
+  <form  action="/Contact.html">
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="" placeholder="Your First Name.." required autofocus>
+<br>
+<br>
+    <!-- <p>form using required making field mandatory </p> -->
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="" placeholder="Your Last Name.." required autofocus><br>
+
+    <!-- <p>Form using autocomplete - email field not suggesting data for user </p> -->
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" autocomplete="off" placeholder="Your Email Address.." required autofocus><br>
+
+    <!-- <p>Form using pattern tag to specify the format of phone number</p> -->
+  <label for="phone">Phone Number:</label><br>
+  <input type="tele" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" autocomplete="off" placeholder="Your Phone Number.." required autofocus><br>
+
+    <!-- <p>Form using autofocus to highlight the current field </p> -->
+  <label for="message">Message:</label><br>
+  <textarea id="message" name="message" placeholder="Enter Your Message.." required autofocus style="height: 200px"></textarea>
+  
+    <!-- <p>break points </p> -->
+    <br>
+    <input type="submit" value="Submit">
+  <!-- <p>Reset button to reset all fields </p> -->
+    <input type="reset">
+  </form> 
+      </div>
+    </div>
+  </div>
+
+</ul>
+    <footer>
+    <p>Copyright 2022 by George I. All Rights Reserved.</p>
+     <span style="color: var(--colors-primary)">
+    <a target="_blank" href="https://www.linkedin.com/in/idumwonyigeorge">Linkedin</a> 
+    <a target="_blank" href="https://github.com/Makeve/Week2-Code-The-Future">GitHub</a> 
+    <a target="_blank" href="https://twitter.com/idumwonyi89">Twitter</a>
+    <a target="_blank" href="https://instagram.com/__alpha.x">Instagram</a>
+    </span>
+    </footer>
+  </body>
+</html>

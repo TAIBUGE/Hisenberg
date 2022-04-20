@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Updock&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #666;
+    padding: 10px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  }
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background: url('.images/background.png');
+    background-position: 0 1000px;
+    font-family: 'roboto' , sans-serif;
+    
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding:  0 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+h1 {
+    color: #398f51;
+    font-size: 5rem;
+    font-weight: 700;
+    letter-spacing: 8px;
+    margin-bottom: 2rem;
+}
+h2 {
+    color: #777;
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+image {
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+
+}
+p {
+    font-size: 2rem;
+    color: rgb(23, 195, 218)255, 255, 255)
+
+}
+.btn {
+    display: inline-block;
+    padding: 2.7rem 7.5rem;
+    background:  #000;
+    font-size: 2rem;
+    text-decoration: none;
+    color: blue;
+    border-radius:  10px;
+    transition: background 0.5s;
+}
+
+.btn {
+    background: #dadada;
+}
+/* button header /*
+/* Style the navigation bar */
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    background-color: #000;
+  }
+  
+  /* Current/active navbar link */
+  .active {
+    background-color: #04AA6D;
+  }
+  
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+  /* Contact Form */
+
+  input[type="text"],
+select, textarea {
+  width: 30%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type="tele"],
+select, textarea {
+  width: 30%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type="email"],
+select,
+textarea {
+  width: 30%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type="submit"] {
+  background-color: #000;
+  color: #ffffff;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+input[type="submit"]:hover 
+{
+  background-color: #717171;
+}
+input[type="reset"] 
+{
+  background-color: #000;
+  color: #ffffff;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+input[type="reset"]:hover 
+{
+  background-color: #717171;
+}
+
+/* Current/active navbar link */
+.active 
+{
+  background-color:black;
+}
+.active1 
+{
+  background-color: black;
+}
+.active2
+{
+  background-color: black;
+}
+.active3
+{
+
+  background-color: black;
+}
+/* Style the footer */
+footer {
+    background-color: #777;
+    padding: 8px;
+    text-align: center;
+    color: white;
+  }
+
+  /* style for image */
+#indexpic {
+    float: right;
+    margin: 1px;
+    height: 400px;
+    width: 500px;
+  }
+
+
+
+
+
+  /* Add a black background color to the top navigation */
+.topnav {
+    position: relative;
+    background-color: #555;
+    overflow: hidden;
+  }
+  /* Style the navigation bar */
+  
+  /* Style the navigation menu */
+  nav {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background: #ccc;
+    padding: 10px;
+  }
+  
+  /* Navbar links on mouse-over */
+  .topnav a:hover {
+    background-color: #000;
+  }
+
+  
+  /* Style the links inside the navigation bar */
+  .topnav a 
+  {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover 
+  {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active 
+  {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  /* Centered section inside the top navigation */
+  .topnav-centered a 
+  {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Style the content */
+  article 
+  {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #f1f1f1;
+    padding: 30px;
+  }
+  
+  /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+  @media (max-width: 600px) 
+  {
+    section 
+    {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+
+ 
+  .flex-item-contact 
+  {
+    background: #fcfcfc7c;
+    padding: 5px;
+    width: 500px;
+    height: auto;
+    color: #050000;
+    text-align: center;
+  }
+ 
+
+  .flex-container 
+  {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  /* Styling Grid */ 
+  .grid-container 
+  {
+    display: grid;
+    grid-template-rows: 80px 80px 80px;
+    grid-template-columns: 300px 300px 300px;
+    row-gap: 20px;
+    column-gap: 20px;
+  }
+  .grid-item 
+  {
+    color: black;
+    border: 0px solid purple;
+    width: 300px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 18px;
+ 
+  
+  p.large {
+    font-size: 400%;
+  }
+ 
+  /*footer a 
+  {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 10px;
+    text-decoration: none;
+  }*/
+ 
